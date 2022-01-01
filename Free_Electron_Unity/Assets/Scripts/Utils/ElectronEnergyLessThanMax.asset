@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ElectronEnergyLessThanMax
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.Boolean","key":"bool","label":null,"summary":null,"hideLabel":false}],"title":"Electron
+      Energy Less Than Max","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":105.0,"y":-30.0},"guid":"397029fb-874f-4b9c-a2ca-264ab62f2216","$version":"A","$type":"Bolt.GraphOutput","$id":"10"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"electronEnergy","$type":"System.String"},"object":null},"position":{"x":-302.0,"y":-35.0},"guid":"99af343f-454b-4fd9-bc43-e3049ad2156c","$version":"A","$type":"Bolt.GetVariable","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"electronMaxEnergy","$type":"System.String"},"object":null},"position":{"x":-330.0,"y":77.0},"guid":"cb2c2b10-5c0e-428a-a94a-64c76174b877","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"numeric":true,"defaultValues":{"b":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-60.0,"y":-30.0},"guid":"07c62bdb-c936-45b7-9975-31caa8984561","$version":"A","$type":"Bolt.Less","$id":"16"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"a","guid":"d09ef131-d84d-47ba-9e17-99d698c65462","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"b","guid":"307a81c4-0df7-4851-8d46-de957e9f4e4e","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"comparison","destinationUnit":{"$ref":"10"},"destinationKey":"bool","guid":"a688a8a5-243c-4f4b-8c77-073161a5a9da","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
