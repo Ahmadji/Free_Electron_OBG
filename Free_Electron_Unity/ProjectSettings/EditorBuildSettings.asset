@@ -6,12 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Isart Logo.unity
-    guid: 29f657b805f2c284e900908a93d1305f
-  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 3c5259dd63a0dcc4c9c149703d2fffa4
   - enabled: 1
     path: Assets/Scenes/Level 1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 87dd832587604064aaec22eed84d78c0
   m_configObjects: {}
