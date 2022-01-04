@@ -1,6 +1,9 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
+
+# Always exclude these files, because they are part of the plugin
+
 #
 [Ll]ibrary/
 [Tt]emp/
@@ -9,7 +12,22 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
-Ludiq
+
+Free_Electron_Unity/Assets/Ludiq/Assemblies
+Free_Electron_Unity/Assets/Ludiq/Assemblies.meta
+Free_Electron_Unity/Assets/Ludiq/Ludiq
+Free_Electron_Unity/Assets/Ludiq/Ludiq.meta
+Free_Electron_Unity/Assets/Ludiq/*/LICENSES.txt
+Free_Electron_Unity/Assets/Ludiq/*/LICENSES.txt.meta
+Free_Electron_Unity/Assets/Ludiq/*/Documentation
+Free_Electron_Unity/Assets/Ludiq/*/Documentation.meta
+Free_Electron_Unity/Assets/Ludiq/*/IconMap
+Free_Electron_Unity/Assets/Ludiq/*/IconMap.meta
+Free_Electron_Unity/Assets/Ludiq/Ludiq.Core/DotNetDocumentation
+Free_Electron_Unity/Assets/Ludiq/Ludiq.Core/DotNetDocumentation.meta
+Free_Electron_Unity/Assets/Ludiq/*/*.root
+Free_Electron_Unity/Assets/Ludiq/*/*.root.meta
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
