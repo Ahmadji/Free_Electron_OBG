@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"TimeLeft","value":{"$content":300,"$type":"System.Int32"},"$version":"A"},{"name":"LoseReason","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"TimeLeft","value":{"$content":100,"$type":"System.Int32"},"$version":"A"},{"name":"LoseReason","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &2603365566906089240
 MonoBehaviour:
