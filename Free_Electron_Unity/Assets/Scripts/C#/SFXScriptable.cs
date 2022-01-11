@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [CreateAssetMenu(fileName = "SFX", menuName = "FreeElectron/SFX")]
 public class SFXScriptable : ScriptableObject
 {
-
+    /*
     [Header("In the Continuum")]
     public AudioClip continuumDoubleTap;
     public AudioClip continuumRotating;
@@ -33,7 +34,39 @@ public class SFXScriptable : ScriptableObject
 
 
     public AudioClip[] clips;
+    */
 
+    /*
+    [Header("In the Continuum")]
+    public Sound continuumDoubleTap;
+    public Sound continuumRotating;
+    public Sound continuumMoving;
+
+    [Header("Linked To Atom")]
+    public Sound linkedDoubleTap;
+    public Sound linkedOneTap;
+    public Sound linkedRotating;
+    public Sound linkedMoving;
+    public Sound reloadingEnergy;
+    public Sound collidingAlectron;
+    public Sound expulsion;
+
+    [Header("Checkpoints")]
+    public Sound takingCP;
+
+    [Header("Menu")]
+    public Sound playButtonClick;
+    public Sound exitButtonClick;
+    public Sound buttonSelection;
+    public Sound buttonClick;
+    public Sound pauseMenuActivate;
+    public Sound pauseMenuDeactivate;
+    */
+
+    
+    public Sound[] sounds;
+
+    /*
     private void OnValidate()
     {
         
@@ -42,6 +75,16 @@ public class SFXScriptable : ScriptableObject
         linkedDoubleTap, linkedOneTap, linkedRotating, linkedMoving, reloadingEnergy, collidingAlectron, expulsion,
         takingCP,
         playButtonClick, exitButtonClick, buttonSelection, buttonClick, pauseMenuActivate, pauseMenuDeactivate};
+        
+
+        
+        sounds = new Sound[] {
+        continuumDoubleTap, continuumRotating, continuumMoving,
+        linkedDoubleTap, linkedOneTap, linkedRotating, linkedMoving, reloadingEnergy, collidingAlectron, expulsion,
+        takingCP,
+        playButtonClick, exitButtonClick, buttonSelection, buttonClick, pauseMenuActivate, pauseMenuDeactivate};
+        
     }
+    */
 
 }

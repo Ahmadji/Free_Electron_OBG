@@ -12,38 +12,130 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb8d5d8e367d3741814a3aa43b33cb6, type: 3}
   m_Name: SFX
   m_EditorClassIdentifier: 
-  continuumDoubleTap: {fileID: 8300000, guid: f295c53ee8e1b7948af5adbcd8c3e96f, type: 3}
-  continuumRotating: {fileID: 0}
-  continuumMoving: {fileID: 0}
-  linkedDoubleTap: {fileID: 0}
-  linkedOneTap: {fileID: 0}
-  linkedRotating: {fileID: 0}
-  linkedMoving: {fileID: 0}
-  reloadingEnergy: {fileID: 0}
-  collidingAlectron: {fileID: 0}
-  expulsion: {fileID: 0}
-  takingCP: {fileID: 0}
-  playButtonClick: {fileID: 8300000, guid: eb03948b8bad61648b8bf5fb26110fd4, type: 3}
-  exitButtonClick: {fileID: 0}
-  buttonSelection: {fileID: 0}
-  buttonClick: {fileID: 0}
-  pauseMenuActivate: {fileID: 8300000, guid: f295c53ee8e1b7948af5adbcd8c3e96f, type: 3}
-  pauseMenuDeactivate: {fileID: 0}
-  clips:
-  - {fileID: 8300000, guid: f295c53ee8e1b7948af5adbcd8c3e96f, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 8300000, guid: eb03948b8bad61648b8bf5fb26110fd4, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 8300000, guid: f295c53ee8e1b7948af5adbcd8c3e96f, type: 3}
-  - {fileID: 0}
+  sounds:
+  - name: continuumDoubleTap
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: continuumRotating
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: continuumMoving
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: linkedDoubleTap
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: linkedOneTap
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: linkedRotating
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: linkedMoving
+    clip: {fileID: 8300000, guid: d7e42dd5c212cf642be993e83ce58fb1, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: reloadingEnergy
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: collidingAlectron
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: expulsion
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: takingCP
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: reachingGoal
+    clip: {fileID: 8300000, guid: 5bcae78996b84f443a3f4d2fcd9a16d8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: playButtonClick
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: exitButtonClick
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: buttonSelection
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: buttonClick
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: pauseMenuActivate
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: pauseMenuDeactivate
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}

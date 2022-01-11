@@ -3,7 +3,16 @@ guid: 41162bae0ff539c4eab9b6d3cdb43b48
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mainMenuMusic: {instanceID: 0}
+  - tutorialMusic: {instanceID: 0}
+  - level1Music: {instanceID: 0}
+  - level2Music: {instanceID: 0}
+  - level3Music: {instanceID: 0}
+  - level4Music: {instanceID: 0}
+  - level5Music: {instanceID: 0}
+  - gameOverMusic: {instanceID: 0}
+  - gameWonMusic: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

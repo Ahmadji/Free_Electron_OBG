@@ -12,12 +12,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41162bae0ff539c4eab9b6d3cdb43b48, type: 3}
   m_Name: Music
   m_EditorClassIdentifier: 
-  mainMenuMusic: {fileID: 0}
-  tutorialMusic: {fileID: 0}
-  level1Music: {fileID: 0}
-  level2Music: {fileID: 0}
-  level3Music: {fileID: 0}
-  level4Music: {fileID: 0}
-  level5Music: {fileID: 0}
-  gameOverMusic: {fileID: 0}
-  gameWonMusic: {fileID: 0}
+  musics:
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: eb03948b8bad61648b8bf5fb26110fd4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    isCool: 0
+    source: {fileID: 0}
+  - name: Tutorial
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 1
+    isCool: 0
+    source: {fileID: 0}
+  - name: Level1
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 0
+    loop: 1
+    isCool: 0
+    source: {fileID: 0}
+  - name: Level2
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 0
+    loop: 1
+    isCool: 0
+    source: {fileID: 0}
+  - name: Level3
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 0
+    loop: 1
+    isCool: 0
+    source: {fileID: 0}
+  - name: Level4
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 0
+    loop: 1
+    isCool: 0
+    source: {fileID: 0}
+  - name: Level5
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 0
+    loop: 1
+    isCool: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 0
+    loop: 0
+    isCool: 0
+    source: {fileID: 0}
+  - name: GameWon
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 0
+    loop: 1
+    isCool: 0
+    source: {fileID: 0}
