@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "SFX", menuName = "FreeElectron/SFX")]
 public class SFXScriptable : ScriptableObject
 {
+
     [Header("In the Continuum")]
     public AudioClip continuumDoubleTap;
     public AudioClip continuumRotating;
@@ -29,5 +30,18 @@ public class SFXScriptable : ScriptableObject
     public AudioClip buttonClick;
     public AudioClip pauseMenuActivate;
     public AudioClip pauseMenuDeactivate;
+
+
+    public AudioClip[] clips;
+
+    private void OnValidate()
+    {
+        
+        clips = new AudioClip[] {
+        continuumDoubleTap, continuumRotating, continuumMoving,
+        linkedDoubleTap, linkedOneTap, linkedRotating, linkedMoving, reloadingEnergy, collidingAlectron, expulsion,
+        takingCP,
+        playButtonClick, exitButtonClick, buttonSelection, buttonClick, pauseMenuActivate, pauseMenuDeactivate};
+    }
 
 }

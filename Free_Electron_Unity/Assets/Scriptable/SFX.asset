@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb8d5d8e367d3741814a3aa43b33cb6, type: 3}
   m_Name: SFX
   m_EditorClassIdentifier: 
-  continuumDoubleTap: {fileID: 0}
+  continuumDoubleTap: {fileID: 8300000, guid: f295c53ee8e1b7948af5adbcd8c3e96f, type: 3}
   continuumRotating: {fileID: 0}
   continuumMoving: {fileID: 0}
   linkedDoubleTap: {fileID: 0}
@@ -23,3 +23,27 @@ MonoBehaviour:
   collidingAlectron: {fileID: 0}
   expulsion: {fileID: 0}
   takingCP: {fileID: 0}
+  playButtonClick: {fileID: 8300000, guid: eb03948b8bad61648b8bf5fb26110fd4, type: 3}
+  exitButtonClick: {fileID: 0}
+  buttonSelection: {fileID: 0}
+  buttonClick: {fileID: 0}
+  pauseMenuActivate: {fileID: 8300000, guid: f295c53ee8e1b7948af5adbcd8c3e96f, type: 3}
+  pauseMenuDeactivate: {fileID: 0}
+  clips:
+  - {fileID: 8300000, guid: f295c53ee8e1b7948af5adbcd8c3e96f, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: eb03948b8bad61648b8bf5fb26110fd4, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: f295c53ee8e1b7948af5adbcd8c3e96f, type: 3}
+  - {fileID: 0}
