@@ -15,64 +15,64 @@ MonoBehaviour:
   musics:
   - name: MainMenu
     clip: {fileID: 8300000, guid: eb03948b8bad61648b8bf5fb26110fd4, type: 3}
+    audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
     loop: 1
-    isCool: 0
     source: {fileID: 0}
   - name: Tutorial
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 1
-    isCool: 0
     source: {fileID: 0}
   - name: Level1
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 0
     loop: 1
-    isCool: 0
     source: {fileID: 0}
   - name: Level2
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 0
     loop: 1
-    isCool: 0
     source: {fileID: 0}
   - name: Level3
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 0
     loop: 1
-    isCool: 0
     source: {fileID: 0}
   - name: Level4
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 0
     loop: 1
-    isCool: 0
     source: {fileID: 0}
   - name: Level5
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 0
     loop: 1
-    isCool: 0
     source: {fileID: 0}
   - name: GameOver
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 0
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: GameWon
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 0
     loop: 1
-    isCool: 0
     source: {fileID: 0}

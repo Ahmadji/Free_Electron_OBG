@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e694499529a1be9448f772429995838f, type: 3}
   m_Name: MainKey
   m_EditorClassIdentifier: 
-  mainKey: 122
+  mainKey: 32
   pauseKey: 27

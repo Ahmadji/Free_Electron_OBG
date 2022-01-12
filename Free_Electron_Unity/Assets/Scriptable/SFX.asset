@@ -15,127 +15,127 @@ MonoBehaviour:
   sounds:
   - name: continuumDoubleTap
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: continuumRotating
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: continuumMoving
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: linkedDoubleTap
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: linkedOneTap
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: linkedRotating
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: linkedMoving
-    clip: {fileID: 8300000, guid: d7e42dd5c212cf642be993e83ce58fb1, type: 3}
-    volume: 0.5
+    clip: {fileID: 0}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: reloadingEnergy
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: collidingAlectron
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: expulsion
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: takingCP
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: reachingGoal
     clip: {fileID: 8300000, guid: 5bcae78996b84f443a3f4d2fcd9a16d8, type: 3}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: playButtonClick
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: exitButtonClick
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: buttonSelection
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: buttonClick
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: pauseMenuActivate
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
   - name: pauseMenuDeactivate
     clip: {fileID: 0}
+    audioMixerGroup: {fileID: 0}
     volume: 1
     pitch: 1
     loop: 0
-    isCool: 0
     source: {fileID: 0}
