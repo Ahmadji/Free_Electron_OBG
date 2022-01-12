@@ -62,6 +62,9 @@ public class SFXScriptable : ScriptableObject
     public Sound pauseMenuActivate;
     public Sound pauseMenuDeactivate;
     */
+    [Header("Localized Sounds")]
+    [Header("Checkpoints")]
+    public AudioClip takingCP;
 
     
     public Sound[] sounds;

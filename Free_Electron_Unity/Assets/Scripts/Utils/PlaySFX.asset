@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlaySFX
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"In","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Out","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":null,"_type":"System.String","key":"SFX
+      Name","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":56.0,"y":33.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-460.0,"y":-43.0},"guid":"fee60237-1c35-4fb3-8fba-cfc0a594d532","$version":"A","$type":"Bolt.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":-47.0,"y":-43.0},"guid":"77af3532-e46a-417b-b93d-9b579a259fe8","$version":"A","$type":"Bolt.GraphOutput","$id":"14"},{"chainable":false,"member":{"name":"PlaySFX","parameterTypes":["System.String"],"targetType":"AudioManager","targetTypeName":"AudioManager","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"linkedLink","$type":"System.String"}},"position":{"x":-272.0,"y":-43.0},"guid":"6eab3643-fabd-4671-92d2-66b84ddb5390","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"audioManager","$type":"System.String"}},"position":{"x":-514.0,"y":75.0},"guid":"f819791f-0fdd-4f40-ae2f-d122878753d1","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"12"},"sourceKey":"In","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"5437a9c0-a660-4c64-8c8b-78197a76d585","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"Out","guid":"9f03934d-85fb-4e2e-b7d5-ec9e01b69e1c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"SFX
+      Name","destinationUnit":{"$ref":"16"},"destinationKey":"%name","guid":"f2ca53d0-f350-4eee-8bee-c24089c6432c","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"b5905a2b-cce5-48da-b96e-78b20ad5668f","$type":"Bolt.ValueConnection"},{"position":{"xMin":-572.0,"yMin":-99.0,"xMax":124.0,"yMax":188.0},"label":"Play
+      SFX","comment":null,"color":{"r":1.0,"g":0.3443937,"b":0.0,"a":1.0},"guid":"daf39c79-88e1-4ddd-bc53-6270753cb6b3","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

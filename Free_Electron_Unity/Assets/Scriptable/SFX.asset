@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb8d5d8e367d3741814a3aa43b33cb6, type: 3}
   m_Name: SFX
   m_EditorClassIdentifier: 
+  takingCP: {fileID: 0}
   sounds:
   - name: continuumDoubleTap
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
-    volume: 1
+    clip: {fileID: 8300000, guid: 2c1f9912907ae8c4599766ef7168c61d, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -30,6 +31,20 @@ MonoBehaviour:
   - name: continuumMoving
     clip: {fileID: 0}
     audioMixerGroup: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: linkedLink_01
+    clip: {fileID: 8300000, guid: e1d85c718cdc3f04090bfa089709bccf, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: linkedLink_02
+    clip: {fileID: 8300000, guid: 5507679f151b2ad4694f50d140cae5f1, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
     loop: 0
@@ -83,17 +98,31 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: takingCP
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
+  - name: takingCP_01
+    clip: {fileID: 8300000, guid: 0980a061817f4174095312e1ab52ab41, type: 3}
+    audioMixerGroup: {fileID: 3504825041494336773, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: takingCP_02
+    clip: {fileID: 8300000, guid: 23ea434e1604a784d87a3c3df24e6024, type: 3}
+    audioMixerGroup: {fileID: 3504825041494336773, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: takingCP_03
+    clip: {fileID: 8300000, guid: 2b1572c3ecc47f04ba5657841d3f7ee0, type: 3}
+    audioMixerGroup: {fileID: 3504825041494336773, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: reachingGoal
     clip: {fileID: 8300000, guid: 5bcae78996b84f443a3f4d2fcd9a16d8, type: 3}
-    audioMixerGroup: {fileID: 0}
-    volume: 1
+    audioMixerGroup: {fileID: 3504825041494336773, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
