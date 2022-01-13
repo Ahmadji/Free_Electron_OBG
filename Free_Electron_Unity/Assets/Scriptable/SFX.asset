@@ -50,22 +50,29 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: linkedDoubleTap
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
-    volume: 1
+    clip: {fileID: 8300000, guid: 49c6783b5cbb31f49a0aebb9e05bf58b, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 0.3
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: linkedOneTap
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
+    clip: {fileID: 8300000, guid: bcd57729115a30841a2d70fd3d76f35d, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: linkedRotationOn
+    clip: {fileID: 8300000, guid: 32f6889e0d41f3c499f3b290d927f461, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: linkedRotating
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
+  - name: linkedRotationOff
+    clip: {fileID: 8300000, guid: 6cae04e38769f63498c6ffbe2d32a729, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
     loop: 0
@@ -85,15 +92,15 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: collidingAlectron
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
+    clip: {fileID: 8300000, guid: 5c3d97004d83b324380b72eb1c5ce491, type: 3}
+    audioMixerGroup: {fileID: 4524869275776537855, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: expulsion
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
+    clip: {fileID: 8300000, guid: 3cc6ac575b059554d98279e87b35b26b, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
     loop: 0
@@ -164,6 +171,20 @@ MonoBehaviour:
   - name: pauseMenuDeactivate
     clip: {fileID: 0}
     audioMixerGroup: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: gameOver
+    clip: {fileID: 8300000, guid: 779f8dd4f9041bb4cb559cfe24632f66, type: 3}
+    audioMixerGroup: {fileID: -5851545878656886032, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: gameWon
+    clip: {fileID: 8300000, guid: f39b38b95d1de1048b47a97db773a85f, type: 3}
+    audioMixerGroup: {fileID: -5851545878656886032, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
     loop: 0
