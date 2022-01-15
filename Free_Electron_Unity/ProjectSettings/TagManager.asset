@@ -14,11 +14,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Continuum
+  - LinkedToAtom
+  - Atom
+  - FreeElectron
+  - LinkedElectron
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Particles
+    uniqueID: 1448037345
+    locked: 0
   - name: Background
     uniqueID: 4001230789
     locked: 0
@@ -52,4 +55,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2773921467
+    locked: 0
+  - name: New Layer
+    uniqueID: 2769006663
     locked: 0

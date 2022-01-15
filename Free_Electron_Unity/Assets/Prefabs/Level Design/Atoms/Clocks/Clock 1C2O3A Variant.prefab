@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1794460424}
   - component: {fileID: 1794460426}
   - component: {fileID: 1794460425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Parent (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ PrefabInstance:
       objectReference: {fileID: 5469841322301667364}
     - target: {fileID: 8005158327923605299, guid: 1cf71408d4e54dd469011d1eace58d68, type: 3}
       propertyPath: m_Name
-      value: Clock 1C2O3A
+      value: Clock 1C2O3A Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8005158329013624180, guid: 1cf71408d4e54dd469011d1eace58d68, type: 3}
       propertyPath: _data._json
@@ -193,6 +193,10 @@ PrefabInstance:
     - target: {fileID: 5423530345878024172, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}
       propertyPath: m_Name
       value: Alectron 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423530345878024172, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5423530345878024175, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}
       propertyPath: m_RootOrder
@@ -237,6 +241,10 @@ PrefabInstance:
     - target: {fileID: 5423530345878024175, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423530345980351364, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}

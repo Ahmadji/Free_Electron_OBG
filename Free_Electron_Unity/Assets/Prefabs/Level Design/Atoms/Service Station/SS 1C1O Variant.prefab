@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1231166611938496535, guid: ae0f65dafe52aa246b3245c7cac49f27, type: 3}
       propertyPath: m_Name
-      value: SS 1C1O
+      value: SS 1C1O Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1231166611938496552, guid: ae0f65dafe52aa246b3245c7cac49f27, type: 3}
       propertyPath: m_RootOrder

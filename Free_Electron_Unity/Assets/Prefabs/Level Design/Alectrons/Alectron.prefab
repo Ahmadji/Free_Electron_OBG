@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5423530345878024161}
   - component: {fileID: 5423530345878024174}
   - component: {fileID: -3711740932312334827}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Alectron
   m_TagString: Alectron
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5423530345980351367}
   - component: {fileID: 5423530345980351366}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}

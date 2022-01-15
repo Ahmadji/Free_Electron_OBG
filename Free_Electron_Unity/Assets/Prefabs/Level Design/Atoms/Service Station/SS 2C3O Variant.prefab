@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1983977747}
   - component: {fileID: 1983977748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Core_Mesh (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1757089011744578452, guid: 4169d278abc48b948ad66d3d876d0b5e, type: 3}
       propertyPath: m_Name
-      value: SS 2C3O
+      value: SS 2C3O Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1757089011744578473, guid: 4169d278abc48b948ad66d3d876d0b5e, type: 3}
       propertyPath: _data._json

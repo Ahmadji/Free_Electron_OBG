@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1733948789581023774, guid: 19df8a94583e37449b3926c7b2d42074, type: 3}
       propertyPath: m_Name
-      value: SS 1C2O
+      value: SS 1C2O Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1733948789581023777, guid: 19df8a94583e37449b3926c7b2d42074, type: 3}
       propertyPath: m_RootOrder
