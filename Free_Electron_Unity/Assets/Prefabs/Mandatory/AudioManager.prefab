@@ -44,3 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SFX: {fileID: 11400000, guid: a07cb00c5e3b0f24c89d56aab0816346, type: 2}
+  Music: {fileID: 11400000, guid: 7e34b635c5db4c045a9726c8de4ef5ed, type: 2}

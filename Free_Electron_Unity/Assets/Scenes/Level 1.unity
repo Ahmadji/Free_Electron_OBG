@@ -253,14 +253,6 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1344132070}
-    - target: {fileID: 1456828986, guid: 50e89fd20f0a037498dde482fe5aa368, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1456828986, guid: 50e89fd20f0a037498dde482fe5aa368, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6283568977862823527, guid: 50e89fd20f0a037498dde482fe5aa368, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -904,14 +896,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3490989974979933732, guid: 91d090f685510e646853f97e8c19c811, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"playerGameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"cameraGameObject","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canvasGameObject","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gameManager","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"audioManager","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3490989974979933732, guid: 91d090f685510e646853f97e8c19c811, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3490989974979933732, guid: 91d090f685510e646853f97e8c19c811, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
       objectReference: {fileID: 1344132064}
@@ -1042,11 +1026,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4903476304821233011, guid: e501964f247dfe548ab402d1cd360c82, type: 3}
   m_PrefabInstance: {fileID: 295317893}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &334532460 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 334532460, guid: 0598f8ddf3b6ab54fad571b4de5f70ec, type: 3}
-  m_PrefabInstance: {fileID: 925640706}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &344520489
 PrefabInstance:
@@ -1710,14 +1689,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 334532460, guid: 0598f8ddf3b6ab54fad571b4de5f70ec, type: 3}
-      propertyPath: ShapeModule.radius.value
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 334532460, guid: 0598f8ddf3b6ab54fad571b4de5f70ec, type: 3}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 0.35
-      objectReference: {fileID: 0}
     - target: {fileID: 6907810126641156105, guid: 0598f8ddf3b6ab54fad571b4de5f70ec, type: 3}
       propertyPath: m_Name
       value: Electron
@@ -1766,24 +1737,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6907810126641156108, guid: 0598f8ddf3b6ab54fad571b4de5f70ec, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"electronEnergy","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"electronMaxEnergy","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"Electron_Parent","value":null,"$version":"A"},{"name":"orbitals","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"transitionEnergies","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"raisingEnergies","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"orbitalEnergies","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"BoostMax","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Mesh","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMultiClickCheck","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotationDirection","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"OrbitalArrows","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ElectronLight","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"normalPitch","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"ContinuumRotationVFX","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContinuumDTVFX","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContinuumReleaseVFX","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"OrbitalVFX","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6907810126641156108, guid: 0598f8ddf3b6ab54fad571b4de5f70ec, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6907810126641156108, guid: 0598f8ddf3b6ab54fad571b4de5f70ec, type: 3}
-      propertyPath: _data._objectReferences.Array.data[7]
-      value: 
-      objectReference: {fileID: 334532460}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0598f8ddf3b6ab54fad571b4de5f70ec, type: 3}
+--- !u!1001 &957304696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1252188004}
+    m_Modifications:
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5815914589265847086, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+      propertyPath: m_Name
+      value: Free Alectron (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+--- !u!4 &957304697 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5815914589265847085, guid: 4494532521e431b4ea94e7666488e69a, type: 3}
+  m_PrefabInstance: {fileID: 957304696}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &964916666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2425,6 +2442,7 @@ Transform:
   - {fileID: 1982248803}
   - {fileID: 1449085378}
   - {fileID: 833576877}
+  - {fileID: 957304697}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2440,10 +2458,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2603365566906089241, guid: 6ce89a4c6a4d5a0488562a6ec5f3109a, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"TimeLeft","value":{"$content":500,"$type":"System.Int32"},"$version":"A"},{"name":"LoseReason","value":null,"$version":"A"},{"name":"isTimeRunning","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"canPause","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 2603365566906089242, guid: 6ce89a4c6a4d5a0488562a6ec5f3109a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3255,21 +3269,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3344393464125136984, guid: a787b91b8c7f32f41acab8772ed1aa0a, type: 3}
-      propertyPath: SFX
-      value: 
-      objectReference: {fileID: 11400000, guid: a07cb00c5e3b0f24c89d56aab0816346, type: 2}
-    - target: {fileID: 3344393464125136984, guid: a787b91b8c7f32f41acab8772ed1aa0a, type: 3}
-      propertyPath: Music
-      value: 
-      objectReference: {fileID: 11400000, guid: 7e34b635c5db4c045a9726c8de4ef5ed, type: 2}
     - target: {fileID: 3344393464125136990, guid: a787b91b8c7f32f41acab8772ed1aa0a, type: 3}
       propertyPath: m_Name
       value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 3344393464125136990, guid: a787b91b8c7f32f41acab8772ed1aa0a, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3344393464125136991, guid: a787b91b8c7f32f41acab8772ed1aa0a, type: 3}
       propertyPath: m_RootOrder

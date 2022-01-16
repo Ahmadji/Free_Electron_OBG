@@ -1074,9 +1074,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: b4874cb9ac054354b837c34c09f2cbca, type: 2}
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Trigger
+      Animation","summary":null,"pan":{"x":-310.0,"y":103.5},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-529.0,"y":-13.0},"guid":"e9791234-f18f-4c02-8d57-b27d257245eb","$version":"A","$type":"Bolt.OnButtonClick","$id":"10"},{"chainable":false,"member":{"name":"SetBool","parameterTypes":["System.String","System.Boolean"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"nextScene","$type":"System.String"},"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-253.0,"y":70.0},"guid":"b4abb498-f5e9-4e6d-8941-ba3b897044ad","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"canvasAnimator","$type":"System.String"},"object":null},"position":{"x":-541.0,"y":85.0},"guid":"89a07314-a0dd-4eac-9390-62d166e7e43c","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"93de6bf7-a72e-4fda-a973-a2d5ea048e0f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"target","guid":"cf203483-3366-42a2-a6e5-e8da0d9a5f9f","$type":"Bolt.ValueConnection"},{"position":{"xMin":-567.0,"yMin":-54.0,"xMax":-53.0,"yMax":261.0},"label":"Trigger
+      Fade Out Animation","comment":null,"color":{"r":0.4980392,"g":0.9921569,"b":0.8941177,"a":1.0},"guid":"ce667fe6-01e4-44af-be1c-bfd48ab9762f","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}}'
+    _objectReferences: []
 --- !u!114 &692439365
 MonoBehaviour:
   m_ObjectHideFlags: 0
