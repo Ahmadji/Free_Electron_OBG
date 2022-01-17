@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"colliderTag","value":null,"$version":"A"},{"name":"isOneTagMatching","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"negative","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"colliderTag","value":null,"$version":"A"},{"name":"negative","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &4164165774067288110
 MonoBehaviour:
