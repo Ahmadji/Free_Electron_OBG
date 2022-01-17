@@ -5,6 +5,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     // FIELDS
+    [SerializeField] private string backgroundMusic;
     public static AudioManager instance;
     public SFXScriptable SFX;
     public MusicScriptable Music;
@@ -56,7 +57,7 @@ public class AudioManager : MonoBehaviour
     private void Start()
     {
         // Play the main theme
-        PlayMusic("MainMenu");
+        PlayMusic(backgroundMusic);
     }
 
     public void PlaySFX(string name)

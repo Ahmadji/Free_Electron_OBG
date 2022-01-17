@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PauseMenuStateMachine
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":100.0,"y":123.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"isStart":true,"position":{"x":-2.0,"y":-1.0},"width":170.0,"guid":"01d649c7-cbc5-426a-8ea4-eb1cdf87dbe8","$version":"A","$type":"Bolt.FlowState"}],"$version":"A"}}'
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":4.0,"y":106.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"isStart":true,"position":{"x":-32.0,"y":0.0},"width":170.0,"guid":"01d649c7-cbc5-426a-8ea4-eb1cdf87dbe8","$version":"A","$type":"Bolt.FlowState"}],"$version":"A"}}'
     _objectReferences:
     - {fileID: 11400000, guid: 465aa8786e793b4448e986d471a23ce1, type: 2}

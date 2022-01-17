@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ButtonTriggerAnimationNextScene
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Trigger
+      Animation","summary":null,"pan":{"x":-409.0,"y":163.5},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-529.0,"y":-13.0},"guid":"e9791234-f18f-4c02-8d57-b27d257245eb","$version":"A","$type":"Bolt.OnButtonClick","$id":"9"},{"chainable":false,"member":{"name":"SetBool","parameterTypes":["System.String","System.Boolean"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"nextScene","$type":"System.String"},"%value":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-253.0,"y":70.0},"guid":"b4abb498-f5e9-4e6d-8941-ba3b897044ad","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"canvasAnimator","$type":"System.String"},"object":null},"position":{"x":-541.0,"y":85.0},"guid":"89a07314-a0dd-4eac-9390-62d166e7e43c","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"93de6bf7-a72e-4fda-a973-a2d5ea048e0f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"cf203483-3366-42a2-a6e5-e8da0d9a5f9f","$type":"Bolt.ValueConnection"},{"position":{"xMin":-567.0,"yMin":-54.0,"xMax":-53.0,"yMax":261.0},"label":"Trigger
+      Fade Out Animation","comment":null,"color":{"r":0.4980392,"g":0.9921569,"b":0.8941177,"a":1.0},"guid":"ce667fe6-01e4-44af-be1c-bfd48ab9762f","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
