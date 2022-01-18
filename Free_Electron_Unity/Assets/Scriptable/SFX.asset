@@ -98,6 +98,27 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: collidingMirror_01
+    clip: {fileID: 8300000, guid: 168eae58e9ea1554f9b37cfbdf0ccf8e, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: collidingMirror_02
+    clip: {fileID: 8300000, guid: 483b825e7ce313f448f9805957a0f801, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: collidingMirror_03
+    clip: {fileID: 8300000, guid: d5b7f039845499d43a4c6c41aa26670b, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
   - name: expulsion
     clip: {fileID: 8300000, guid: 3cc6ac575b059554d98279e87b35b26b, type: 3}
     audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}

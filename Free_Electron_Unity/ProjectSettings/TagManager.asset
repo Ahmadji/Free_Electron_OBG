@@ -7,6 +7,7 @@ TagManager:
   - Alectron
   - Free Alectron
   - Free Positron
+  - Mirror
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Atom
   - FreeElectron
   - LinkedElectron
-  - 
+  - Bridge
   - 
   - 
   - 
