@@ -39,8 +39,8 @@ Material:
     - Vector1_481a0a9f46194d9bbddee24ce3e2c895: 10
     - _Fade: 1
     - _FadeOffset: 0.1
-    - _Scale: 58.1
+    - _Scale: 54
     m_Colors:
-    - Color_6f2ccf04fd2948869789ed8d089d3a0d: {r: 0, g: 959.749, b: 1024, a: 1}
+    - Color_6f2ccf04fd2948869789ed8d089d3a0d: {r: 9.272775, g: 0, b: 253.0143, a: 1}
     - _FadeColor: {r: 1, g: 0.05270505, b: 0, a: 1}
   m_BuildTextureStacks: []

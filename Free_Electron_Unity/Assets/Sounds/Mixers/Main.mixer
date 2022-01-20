@@ -122,6 +122,8 @@ AudioMixerController:
     name: MasterPitch
   - guid: 36d3db905e50e1247a31477a5f25049d
     name: MasterVolume
+  - guid: ff3767737b765554f8942a2ad200968c
+    name: MusicVolume
   m_AudioMixerGroupViews:
   - guids:
     - 2f63e44faf1a9554fbdbb584fc18ca3c

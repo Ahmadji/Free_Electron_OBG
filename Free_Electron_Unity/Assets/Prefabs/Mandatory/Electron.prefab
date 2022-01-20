@@ -19942,7 +19942,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.25
+  m_Radius: 0.22
 --- !u!50 &6907810126641156110
 Rigidbody2D:
   serializedVersion: 4
@@ -20000,7 +20000,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"transitionEnergies","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"raisingEnergies","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"orbitalEnergies","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[System.Single,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"BoostMax","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Mesh","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMultiClickCheck","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotationDirection","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"negative","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"OrbitalArrows","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ElectronLight","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"normalPitch","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"ContinuumRotationVFX","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContinuumDTVFX","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContinuumReleaseVFX","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"OrbitalVFX","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"BoostMax","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"Arrow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Mesh","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canMultiClickCheck","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"rotationDirection","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"negative","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"OrbitalArrows","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ElectronLight","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"normalPitch","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"ContinuumRotationVFX","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContinuumDTVFX","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContinuumReleaseVFX","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"OrbitalVFX","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"loseReason","value":{"$content":"Null","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6907810128064056921}
     - {fileID: 6907810127194157041}
@@ -20115,7 +20115,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 52a4c88465a552d4f8ea36a046ad62a2, type: 3}
-  m_Color: {r: 0.1764055, g: 0.49834555, b: 0.95699996, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

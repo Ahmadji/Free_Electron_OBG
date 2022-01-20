@@ -8,6 +8,7 @@ TagManager:
   - Free Alectron
   - Free Positron
   - Mirror
+  - Positron
   layers:
   - Default
   - TransparentFX
@@ -51,12 +52,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Antimatter
+    uniqueID: 2769006663
+    locked: 0
   - name: Player
     uniqueID: 1028223899
     locked: 0
   - name: UI
     uniqueID: 2773921467
-    locked: 0
-  - name: New Layer
-    uniqueID: 2769006663
     locked: 0
