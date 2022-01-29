@@ -15,7 +15,7 @@ MonoBehaviour:
   canLose: 0
   canPause: 1
   isTimeRunning: 0
-  canPlayerDoubleTapContinuum: 0
+  canPlayerDoubleTapContinuum: 1
   canPlayerHoldContinuum: 0
   canPlayerDoubleTapLinked: 0
   canPlayerToggleLinked: 0

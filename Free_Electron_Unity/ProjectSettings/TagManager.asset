@@ -52,6 +52,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Collectibles
+    uniqueID: 567787251
+    locked: 0
   - name: Antimatter
     uniqueID: 2769006663
     locked: 0
