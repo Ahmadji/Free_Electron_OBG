@@ -386,11 +386,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3490989974979933732, guid: 91d090f685510e646853f97e8c19c811, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"playerGameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"cameraGameObject","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canvasGameObject","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gameManager","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"audioManager","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"generalScriptable","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"playerGameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"cameraGameObject","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"canvasGameObject","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gameManager","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"audioManager","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"dialogueManager","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"generalScriptable","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 3490989974979933732, guid: 91d090f685510e646853f97e8c19c811, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3490989974979933732, guid: 91d090f685510e646853f97e8c19c811, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
@@ -414,6 +414,10 @@ PrefabInstance:
       objectReference: {fileID: 1023096956}
     - target: {fileID: 3490989974979933732, guid: 91d090f685510e646853f97e8c19c811, type: 3}
       propertyPath: _data._objectReferences.Array.data[5]
+      value: 
+      objectReference: {fileID: 414549928}
+    - target: {fileID: 3490989974979933732, guid: 91d090f685510e646853f97e8c19c811, type: 3}
+      propertyPath: _data._objectReferences.Array.data[6]
       value: 
       objectReference: {fileID: 11400000, guid: 2ffb3da1cb8b3a447ab336024c22d105, type: 2}
     - target: {fileID: 3490989974979933733, guid: 91d090f685510e646853f97e8c19c811, type: 3}
@@ -476,6 +480,8 @@ GameObject:
   m_Component:
   - component: {fileID: 414549930}
   - component: {fileID: 414549929}
+  - component: {fileID: 414549932}
+  - component: {fileID: 414549931}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -509,6 +515,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &414549931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414549928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 9218a16e08b739a438c2b66c899cc53c, type: 2}
+--- !u!114 &414549932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414549928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1001 &925640706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -687,11 +724,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Protona
-    sentences:
-    - Hey!
-    - Electron!
-    - What are you doing in the continuum little particle?
+    name: 
+    textMesh: {fileID: 0}
+    sentences: []
 --- !u!4 &1194991551
 Transform:
   m_ObjectHideFlags: 0
@@ -878,9 +913,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     name: Electron
+    textMesh: {fileID: 2141012224}
     sentences:
     - Where am I?
-    - There was this explosion
+    - There was an explosion.
     - My molecule! Where are they?
 --- !u!4 &1821251426
 Transform:
@@ -1005,7 +1041,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Where am I ?
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0c485f8bc00ae804c8566941bafbda8a, type: 2}
   m_sharedMaterial: {fileID: -1899432879745091830, guid: 0c485f8bc00ae804c8566941bafbda8a, type: 2}
