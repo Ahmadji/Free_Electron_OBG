@@ -9,6 +9,7 @@ TagManager:
   - Free Positron
   - Mirror
   - Positron
+  - CPManager
   layers:
   - Default
   - TransparentFX

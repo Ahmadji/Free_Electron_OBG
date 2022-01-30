@@ -15,6 +15,7 @@ MonoBehaviour:
   canLose: 1
   canPause: 1
   isTimeRunning: 0
+  willRushAtStart: 0
   canPlayerDoubleTapContinuum: 1
   canPlayerHoldContinuum: 1
   canPlayerDoubleTapLinked: 1

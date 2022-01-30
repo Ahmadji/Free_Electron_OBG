@@ -9,6 +9,7 @@ public class GeneralScriptable : ScriptableObject
     public bool canLose;
     public bool canPause;
     public bool isTimeRunning;
+    public bool willRushAtStart;
 
     [Header("Continuum")]
     public bool canPlayerDoubleTapContinuum;

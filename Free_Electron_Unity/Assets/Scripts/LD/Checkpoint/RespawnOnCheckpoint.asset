@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: RespawnOnCheckpoint
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":17.50299,"y":20.18887},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-360.0,"y":-103.0},"guid":"58c1b567-352e-453b-8d00-ce4edf9e0493","$version":"A","$type":"Bolt.OnTriggerStay2D","$id":"9"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-80.0,"y":-103.0},"guid":"632805f1-2458-404a-bf73-8c50b3adc32d","$version":"A","$type":"Bolt.SuperUnit","$id":"11"},{"argumentCount":0,"defaultValues":{"name":{"$content":"RespawnOnAtom","$type":"System.String"},"target":null},"position":{"x":432.0,"y":-121.0},"guid":"574104cc-0906-4892-9365-6b61d78da640","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"14"},{"defaultValues":{},"position":{"x":201.0,"y":-102.0},"guid":"f47a955f-b65e-42a3-86e7-5fc968d8a1c9","$version":"A","$type":"Bolt.Once","$id":"16"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-365.0,"y":32.0},"guid":"85a8a799-cd42-452c-91c5-a85a78639e88","$version":"A","$type":"Bolt.OnTriggerExit2D","$id":"18"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-81.0,"y":32.0},"guid":"a20edca8-acf6-4a18-abd1-de3c889c8875","$version":"A","$type":"Bolt.SuperUnit","$id":"20"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"In","guid":"ea9488b1-16df-4bda-b777-e58190fb16fe","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"True","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"850f6e81-09a9-4552-a92e-522a6914978c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"once","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"b630e02f-6f25-4be6-bf7c-052adb4f04e0","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"20"},"destinationKey":"In","guid":"ad4b794d-4ad8-4136-9154-7c9b82927eda","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"True","destinationUnit":{"$ref":"16"},"destinationKey":"reset","guid":"7b1181c5-8ada-4af1-b118-e7cb45c6be2b","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"collider","destinationUnit":{"$ref":"11"},"destinationKey":"Collider","guid":"4ce8f098-f35e-4402-bb93-f59cbb23843b","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"collider","destinationUnit":{"$ref":"20"},"destinationKey":"Collider","guid":"6567360d-dfd8-4fd2-a106-7b108630aa8b","$type":"Bolt.ValueConnection"},{"position":{"xMin":-413.0,"yMin":-166.0,"xMax":625.0,"yMax":175.0},"label":"Allows
+      Electron to spawn on atom and work","comment":null,"color":{"r":0.0,"g":0.9367321,"b":1.0,"a":1.0},"guid":"19b52235-51c1-441b-8e89-2190878b2c87","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: a3fb1c1ec095ff04094b1c8b01cb5603, type: 2}
+    - {fileID: 11400000, guid: a3fb1c1ec095ff04094b1c8b01cb5603, type: 2}
