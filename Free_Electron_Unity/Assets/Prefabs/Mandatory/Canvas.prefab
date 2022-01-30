@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16078432, g: 0.67058825, b: 0.8862746, a: 1}
+  m_Color: {r: 0.16078432, g: 0.67058825, b: 0.8862746, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -323,6 +323,7 @@ GameObject:
   - component: {fileID: 428539278}
   - component: {fileID: 428539277}
   - component: {fileID: 428539276}
+  - component: {fileID: 8959870774347822603}
   m_Layer: 5
   m_Name: TimerText
   m_TagString: Untagged
@@ -391,6 +392,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: TIMER
+--- !u!225 &8959870774347822603
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428539275}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &620788871
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,13 +727,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2111660636}
+  - component: {fileID: 4912537398118117437}
   m_Layer: 5
   m_Name: Window_CheckPointPointer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2111660636
 RectTransform:
   m_ObjectHideFlags: 0
@@ -738,9 +752,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -10.049988}
+  m_AnchoredPosition: {x: 0, y: -10.050049}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &4912537398118117437
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111660635}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1333038171635415380
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +2314,7 @@ GameObject:
   - component: {fileID: 1921892641273870568}
   - component: {fileID: 1921892641273870549}
   - component: {fileID: 1921892641273870548}
-  - component: {fileID: 136920945}
+  - component: {fileID: 6925114622706025906}
   - component: {fileID: 136920946}
   m_Layer: 5
   m_Name: Pause Menu
@@ -2354,7 +2380,7 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &136920945
+--- !u!114 &6925114622706025906
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2395,6 +2421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1921892641356193176}
+  - component: {fileID: 3478026327473436771}
   m_Layer: 5
   m_Name: Control Pause
   m_TagString: Untagged
@@ -2420,9 +2447,21 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -131.27997, y: 15.049011}
+  m_AnchoredPosition: {x: -131.28003, y: 15.049072}
   m_SizeDelta: {x: 81.48102, y: 29.977005}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &3478026327473436771
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921892641356193177}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1921892641358398863
 GameObject:
   m_ObjectHideFlags: 0
@@ -3816,7 +3855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.9630094, y: -14.717361}
+  m_AnchoredPosition: {x: -0.9630094, y: -85}
   m_SizeDelta: {x: 268.45, y: 19.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1921892641789937005
@@ -4079,6 +4118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1921892641957329421}
+  - component: {fileID: 5808220150067959283}
   m_Layer: 5
   m_Name: Controls
   m_TagString: Untagged
@@ -4110,6 +4150,18 @@ RectTransform:
   m_AnchoredPosition: {x: -88.81, y: 74.48599}
   m_SizeDelta: {x: 177.61212, y: 88.897}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &5808220150067959283
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921892641957329410}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1921892641971650627
 GameObject:
   m_ObjectHideFlags: 0

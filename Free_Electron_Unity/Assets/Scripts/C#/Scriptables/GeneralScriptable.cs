@@ -11,6 +11,11 @@ public class GeneralScriptable : ScriptableObject
     public bool isTimeRunning;
     public bool willRushAtStart;
 
+    [Header("UI")]
+    public bool displayEnergy;
+    public bool displayControls;
+    public bool displayPauseControl;
+
     [Header("Continuum")]
     public bool canPlayerDoubleTapContinuum;
     public bool canPlayerHoldContinuum;

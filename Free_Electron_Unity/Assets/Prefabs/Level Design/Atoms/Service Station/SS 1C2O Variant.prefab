@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 650139843740919989, guid: 19df8a94583e37449b3926c7b2d42074, type: 3}
+      propertyPath: m_Radius
+      value: 4.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1733948789581023774, guid: 19df8a94583e37449b3926c7b2d42074, type: 3}
       propertyPath: m_Name
       value: SS 1C2O Variant
@@ -21,11 +25,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1733948789581023777, guid: 19df8a94583e37449b3926c7b2d42074, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.01922
+      value: -29.99033
       objectReference: {fileID: 0}
     - target: {fileID: 1733948789581023777, guid: 19df8a94583e37449b3926c7b2d42074, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.2103635
+      value: 0.012855608
       objectReference: {fileID: 0}
     - target: {fileID: 1733948789581023777, guid: 19df8a94583e37449b3926c7b2d42074, type: 3}
       propertyPath: m_LocalPosition.z

@@ -133,6 +133,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1188639420, guid: ae0f65dafe52aa246b3245c7cac49f27, type: 3}
+      propertyPath: m_Radius
+      value: 3.54
+      objectReference: {fileID: 0}
     - target: {fileID: 1231166611938496535, guid: ae0f65dafe52aa246b3245c7cac49f27, type: 3}
       propertyPath: m_Name
       value: Clock 1C2O2A Variant
@@ -143,11 +147,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1231166611938496552, guid: ae0f65dafe52aa246b3245c7cac49f27, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 54.63
+      value: -74.41339
       objectReference: {fileID: 0}
     - target: {fileID: 1231166611938496552, guid: ae0f65dafe52aa246b3245c7cac49f27, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.36
+      value: 59.10593
       objectReference: {fileID: 0}
     - target: {fileID: 1231166611938496552, guid: ae0f65dafe52aa246b3245c7cac49f27, type: 3}
       propertyPath: m_LocalPosition.z
@@ -365,7 +369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5423530345878024172, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5423530345878024175, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}
       propertyPath: m_RootOrder
@@ -413,7 +417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5423530345980351364, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e1b6a01a7e784a4896ffc953593b2a7, type: 3}

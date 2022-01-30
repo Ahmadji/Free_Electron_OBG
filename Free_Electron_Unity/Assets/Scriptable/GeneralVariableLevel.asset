@@ -16,6 +16,9 @@ MonoBehaviour:
   canPause: 1
   isTimeRunning: 0
   willRushAtStart: 0
+  displayEnergy: 1
+  displayControls: 1
+  displayPauseControl: 1
   canPlayerDoubleTapContinuum: 1
   canPlayerHoldContinuum: 1
   canPlayerDoubleTapLinked: 1

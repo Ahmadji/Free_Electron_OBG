@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"checkpoints","value":{"$content":[null,null,null,null,null],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+    _json: '{"declarations":{"collection":{"$content":[{"name":"clusters","value":{"$content":[null,null,null,null,null],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"CPArrow","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"photons","value":{"$content":[{"$content":[null,null,null,null],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"$content":[null,null,null,null,null,null,null,null,null,null],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},{"$content":[null,null],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,

@@ -126,13 +126,14 @@ GameObject:
   - component: {fileID: 8022803989274568309}
   - component: {fileID: 8022803989274568310}
   - component: {fileID: 8022803989274568311}
+  - component: {fileID: 620673494}
   m_Layer: 11
   m_Name: Photon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8022803989274568308
 Transform:
   m_ObjectHideFlags: 0
@@ -196,6 +197,25 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 99ca154da9bfcf14ab4a07597845b12d, type: 2}
+--- !u!95 &620673494
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022803989274568298}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 296fb0531f9f04f44afd6094933adca3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8022803989686930771
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,7 +262,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 2.5
 --- !u!1 &8022803990280947338
 GameObject:
   m_ObjectHideFlags: 0
