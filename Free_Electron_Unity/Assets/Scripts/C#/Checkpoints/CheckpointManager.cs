@@ -6,6 +6,7 @@ public class CheckpointManager : MonoBehaviour
 {
     private static CheckpointManager instance;
     public Vector2 lastCheckpointPos;
+    public int photonManagerIndex;
 
     private void Awake()
     {

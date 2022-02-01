@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d5770c7e787b8419aea24f4e17d5c6, type: 3}
   m_Name: GeneralVariableTutorial
   m_EditorClassIdentifier: 
-  canLose: 0
+  canLose: 1
   canPause: 1
   isTimeRunning: 0
   willRushAtStart: 0
@@ -20,7 +20,7 @@ MonoBehaviour:
   displayControls: 0
   displayPauseControl: 0
   canPlayerDoubleTapContinuum: 1
-  canPlayerHoldContinuum: 1
+  canPlayerHoldContinuum: 0
   canPlayerDoubleTapLinked: 1
-  canPlayerToggleLinked: 1
+  canPlayerToggleLinked: 0
   canPlayerOneTapLinked: 0

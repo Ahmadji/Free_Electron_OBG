@@ -21,9 +21,9 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: Tutorial
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
-    volume: 1
+    clip: {fileID: 8300000, guid: b8878e6f2c8c05d4da4f8ac50eee2bbb, type: 3}
+    audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}

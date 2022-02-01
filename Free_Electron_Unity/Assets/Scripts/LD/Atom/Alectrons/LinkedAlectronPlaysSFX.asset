@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: LinkedAlectronPlaysSFX
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-314.0,"y":9.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"SFX
+      Name":{"$content":"collidingAlectron","$type":"System.String"}},"position":{"x":-61.0,"y":-70.0},"guid":"56387102-100d-4b45-95b1-2f36f38d3767","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-684.0,"y":-70.0},"guid":"7cc8507c-905d-485e-8c7d-fd1513f41ea6","$version":"A","$type":"Bolt.OnCollisionEnter2D","$id":"12"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"ElectronCollision","$type":"System.String"}},"position":{"x":-326.0,"y":-176.0},"guid":"1f90ee38-77a5-4947-83f1-99b37990f901","$version":"A","$type":"Bolt.CustomEvent","$id":"14"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-358.0,"y":-70.0},"guid":"0e6cdbb4-7f95-4b01-8c71-a35afccc7763","$version":"A","$type":"Bolt.SuperUnit","$id":"16"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"In","guid":"5fd5abfb-aa51-4e7d-8b9a-f0b9af876c32","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"In","guid":"e7abdc94-a52f-4cfd-95b6-3bf656567c76","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"True","destinationUnit":{"$ref":"9"},"destinationKey":"In","guid":"7f63ac51-6ac6-4e66-ae2e-3b85d6bda1e2","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"collider","destinationUnit":{"$ref":"16"},"destinationKey":"Collider","guid":"8d62c4cd-f77b-4ba0-b0f2-218741b7cfa0","$type":"Bolt.ValueConnection"},{"position":{"xMin":-708.0,"yMin":-206.0,"xMax":207.0,"yMax":207.0},"label":"Play
+      SFX","comment":null,"color":{"r":1.0,"g":0.3443937,"b":0.0,"a":1.0},"guid":"c8f67d67-c89a-4cb1-a63c-098e8dbf6c8e","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e553b77eb1376444687cca8f1c8b80ae, type: 2}
+    - {fileID: 11400000, guid: a3fb1c1ec095ff04094b1c8b01cb5603, type: 2}

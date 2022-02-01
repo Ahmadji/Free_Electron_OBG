@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 0
 --- !u!4 &5109481732521716929
 Transform:
@@ -274,6 +274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint VFX
       objectReference: {fileID: 0}
+    - target: {fileID: 3294965232317669435, guid: 9fe76c8ef426bfc41bf89d8cdc28b1f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9017530987542671914, guid: 9fe76c8ef426bfc41bf89d8cdc28b1f0, type: 3}
     - {fileID: 9017530987542671915, guid: 9fe76c8ef426bfc41bf89d8cdc28b1f0, type: 3}
@@ -293,6 +297,10 @@ PrefabInstance:
     - target: {fileID: 2736720117622402828, guid: 2611b39730ca85a4aaabe7a4eb2b2845, type: 3}
       propertyPath: m_Name
       value: Taking Checkpoint VFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 2736720117622402828, guid: 2611b39730ca85a4aaabe7a4eb2b2845, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2736720117622402830, guid: 2611b39730ca85a4aaabe7a4eb2b2845, type: 3}
       propertyPath: looping

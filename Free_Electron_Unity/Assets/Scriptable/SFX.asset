@@ -126,6 +126,20 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: takingPhoton_01
+    clip: {fileID: 8300000, guid: 270772a19f536db4691f603c2c819190, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: takingPhoton_02
+    clip: {fileID: 8300000, guid: 976e9f849bb50bc45b8c0605f8b9fe3f, type: 3}
+    audioMixerGroup: {fileID: 8544139128023611532, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
   - name: takingCP_01
     clip: {fileID: 8300000, guid: 0980a061817f4174095312e1ab52ab41, type: 3}
     audioMixerGroup: {fileID: 3504825041494336773, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}

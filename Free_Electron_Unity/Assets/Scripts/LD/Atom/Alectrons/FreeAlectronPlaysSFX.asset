@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: FreeAlectronPlaysSFX
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-210.0,"y":27.0},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"SFX
+      Name":{"$content":"collidingAlectron","$type":"System.String"}},"position":{"x":-117.0,"y":-150.0},"guid":"c570408c-9a03-43cf-be35-e670a3b6968d","$version":"A","$type":"Bolt.SuperUnit","$id":"9"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-763.0,"y":-151.0},"guid":"9f1ead8d-5e32-4cce-a4c1-a647d28a1d57","$version":"A","$type":"Bolt.OnCollisionEnter2D","$id":"12"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{"Tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-407.0,"y":-151.0},"guid":"c4cb5731-c376-4ecf-8887-b20170c467a9","$version":"A","$type":"Bolt.SuperUnit","$id":"14"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"In","guid":"6e5277f4-79e5-4aec-a6c6-2b8286e55806","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"True","destinationUnit":{"$ref":"9"},"destinationKey":"In","guid":"b294489e-c7bf-4573-bd47-2e0f8768bc46","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"collider","destinationUnit":{"$ref":"14"},"destinationKey":"Collider","guid":"b87d1761-217a-40f8-9c55-70ecf306bd76","$type":"Bolt.ValueConnection"},{"position":{"xMin":-779.0,"yMin":-199.0,"xMax":153.0,"yMax":70.0},"label":"Play
+      SFX","comment":null,"color":{"r":1.0,"g":0.3443937,"b":0.0,"a":1.0},"guid":"75242c08-4939-47c1-ab0f-9f4cd9c9c596","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e553b77eb1376444687cca8f1c8b80ae, type: 2}
+    - {fileID: 11400000, guid: a3fb1c1ec095ff04094b1c8b01cb5603, type: 2}
