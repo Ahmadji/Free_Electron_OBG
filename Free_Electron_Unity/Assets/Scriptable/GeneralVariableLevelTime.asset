@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90d5770c7e787b8419aea24f4e17d5c6, type: 3}
+  m_Name: GeneralVariableLevelTime
+  m_EditorClassIdentifier: 
+  canLose: 1
+  canPause: 1
+  isTimeRunning: 1
+  willRushAtStart: 1
+  displayEnergy: 1
+  displayControls: 1
+  displayPauseControl: 1
+  canPlayerDoubleTapContinuum: 1
+  canPlayerHoldContinuum: 1
+  canPlayerDoubleTapLinked: 1
+  canPlayerToggleLinked: 1
+  canPlayerOneTapLinked: 1
