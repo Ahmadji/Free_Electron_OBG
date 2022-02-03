@@ -23,12 +23,12 @@ MonoBehaviour:
   - name: Tutorial
     clip: {fileID: 8300000, guid: b8878e6f2c8c05d4da4f8ac50eee2bbb, type: 3}
     audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Level1
-    clip: {fileID: 8300000, guid: 7bb003ef2fc6fc248b56e7399feadd8c, type: 3}
+    clip: {fileID: 8300000, guid: f4c83bce296e52140a660a8234ae971b, type: 3}
     audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
     volume: 1
     pitch: 1
