@@ -13,6 +13,7 @@ public class GeneralScriptable : ScriptableObject
 
     [Header("UI")]
     public bool displayEnergy;
+    public bool displayHarvest;
     public bool displayControls;
     public bool displayPauseControl;
 

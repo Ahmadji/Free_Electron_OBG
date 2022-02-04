@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: HarvestVFXBehavior
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-207.5912,"y":-28.6234},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-92.0,"y":7.0},"guid":"dca2cd4f-462f-4850-b93c-692b247dd38f","$version":"A","$type":"Bolt.SetMember","$id":"9"},{"coroutine":false,"defaultValues":{},"position":{"x":-407.0,"y":-123.0},"guid":"370227bc-a6d0-4c1b-8a79-954c72adbcdc","$version":"A","$type":"Bolt.Update"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"cameraGameObject","$type":"System.String"}},"position":{"x":-683.0,"y":46.0},"guid":"0580bcef-7866-4a49-b9d9-542a65a426ab","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"chainable":false,"member":{"name":"ScreenToWorldPoint","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Camera","targetTypeName":"UnityEngine.Camera","$version":"A"},"defaultValues":{"target":null,"%position":{"x":60.0,"y":918.0,"z":1.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-425.0,"y":32.0},"guid":"42a66ee7-17da-489c-9023-e579757336fb","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"df0e8524-f00e-4f9b-af70-64740932cb08","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"result","destinationUnit":{"$ref":"9"},"destinationKey":"input","guid":"da9b15f0-6f53-405c-81f6-b2873a46ee4c","$type":"Bolt.ValueConnection"},{"position":{"xMin":-714.0,"yMin":-242.0,"xMax":394.0,"yMax":233.0},"label":"Set
+      Harvest VFX ","comment":null,"color":{"r":0.9960785,"g":0.8196079,"b":0.0,"a":1.0},"guid":"6ae6a884-3916-4c59-a4e7-10b0619ba06d","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

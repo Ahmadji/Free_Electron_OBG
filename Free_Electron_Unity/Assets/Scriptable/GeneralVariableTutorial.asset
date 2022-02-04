@@ -17,6 +17,7 @@ MonoBehaviour:
   isTimeRunning: 0
   willRushAtStart: 0
   displayEnergy: 0
+  displayHarvest: 0
   displayControls: 0
   displayPauseControl: 0
   canPlayerDoubleTapContinuum: 1
