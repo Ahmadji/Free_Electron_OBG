@@ -64,7 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"PhotonManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"timeGiven","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"TimeLeft","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronMaxEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"PhotonManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"timeGiven","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"TimeLeft","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronMaxEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"energyGiven","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
 --- !u!114 &5109481732521716940
