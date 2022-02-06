@@ -460,17 +460,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 54399053228708646, guid: 9e3eccab5de42de46b46f10eafd31438, type: 3}
   m_PrefabInstance: {fileID: 54399053720754394}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &586419199 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 54399053228708645, guid: 9e3eccab5de42de46b46f10eafd31438, type: 3}
-  m_PrefabInstance: {fileID: 54399053720754394}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &603209657
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,12 +594,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"buttons","value":{"$content":[0,1,2],"$type":"System.Collections.Generic.List`1[[UnityEngine.UI.Button,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"canMultiClickCheck","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"ButtonText","value":{"$content":[3],"$type":"System.Collections.Generic.List`1[[UnityEngine.UI.Text,
+    _json: '{"declarations":{"collection":{"$content":[{"name":"buttons","value":{"$content":[0,1],"$type":"System.Collections.Generic.List`1[[UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"canMultiClickCheck","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"ButtonText","value":{"$content":[2],"$type":"System.Collections.Generic.List`1[[UnityEngine.UI.Text,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 692439361}
-    - {fileID: 586419199}
     - {fileID: 1294594162}
     - {fileID: 1761159316}
 --- !u!114 &603209664
@@ -1997,6 +1985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Options Button
       objectReference: {fileID: 0}
+    - target: {fileID: 54399053228708641, guid: 9e3eccab5de42de46b46f10eafd31438, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 54399053228708646, guid: 9e3eccab5de42de46b46f10eafd31438, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2083,11 +2075,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6517964449908191723, guid: 9e3eccab5de42de46b46f10eafd31438, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6517964449908191723, guid: 9e3eccab5de42de46b46f10eafd31438, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e3eccab5de42de46b46f10eafd31438, type: 3}
@@ -2172,7 +2164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1159567855021224591, guid: 5c72f98b1414a3e4b9eb9b6210c4a0b8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 94.96001
+      value: 87.4
       objectReference: {fileID: 0}
     - target: {fileID: 1159567855021224591, guid: 5c72f98b1414a3e4b9eb9b6210c4a0b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2285,7 +2277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7273211631359458526, guid: 4eb754097a7f22f4ba185704fbc2221d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 6.26001
+      value: 26.8
       objectReference: {fileID: 0}
     - target: {fileID: 7273211631359458526, guid: 4eb754097a7f22f4ba185704fbc2221d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

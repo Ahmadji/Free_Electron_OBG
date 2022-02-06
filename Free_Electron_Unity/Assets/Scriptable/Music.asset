@@ -16,14 +16,14 @@ MonoBehaviour:
   - name: MainMenu
     clip: {fileID: 8300000, guid: eb03948b8bad61648b8bf5fb26110fd4, type: 3}
     audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
-    volume: 1
+    volume: 0.3
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Tutorial
     clip: {fileID: 8300000, guid: b8878e6f2c8c05d4da4f8ac50eee2bbb, type: 3}
     audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
-    volume: 0.4
+    volume: 0.2
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -35,10 +35,10 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
   - name: Level2
-    clip: {fileID: 0}
-    audioMixerGroup: {fileID: 0}
-    volume: 1
-    pitch: 0
+    clip: {fileID: 8300000, guid: 6c431855d79e9904ab50ad7366b31e6b, type: 3}
+    audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 0.2
+    pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: Level3

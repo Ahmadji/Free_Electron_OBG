@@ -751,6 +751,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5109481732521716943, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"PhotonManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"timeGiven","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"TimeLeft","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronMaxEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"energyGiven","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
 --- !u!4 &55399442 stripped
@@ -909,6 +913,10 @@ PrefabInstance:
     - target: {fileID: 5109481732521716931, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109481732521716943, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"PhotonManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"timeGiven","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"TimeLeft","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronMaxEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"energyGiven","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
@@ -11232,6 +11240,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2603365566906089241, guid: 6ce89a4c6a4d5a0488562a6ec5f3109a, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"TimeLeft","value":{"$content":80,"$type":"System.Int32"},"$version":"A"},{"name":"LoseReason","value":null,"$version":"A"},{"name":"isTutorial","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 2603365566906089242, guid: 6ce89a4c6a4d5a0488562a6ec5f3109a, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -13617,6 +13629,10 @@ PrefabInstance:
     - target: {fileID: 5109481732521716931, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109481732521716943, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"PhotonManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"timeGiven","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"TimeLeft","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronMaxEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"energyGiven","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
@@ -16439,6 +16455,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5109481732521716943, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"PhotonManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"timeGiven","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"TimeLeft","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronMaxEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"energyGiven","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
 --- !u!4 &1976650967 stripped
@@ -16911,6 +16931,10 @@ PrefabInstance:
     - target: {fileID: 5109481732521716931, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109481732521716943, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"PhotonManager","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"timeGiven","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"TimeLeft","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"electronMaxEnergy","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"energyGiven","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30cc06d92a3370744b03d0340dfa96f7, type: 3}
