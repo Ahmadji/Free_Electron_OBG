@@ -37,7 +37,7 @@ MonoBehaviour:
   - name: Level2
     clip: {fileID: 8300000, guid: 6c431855d79e9904ab50ad7366b31e6b, type: 3}
     audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
-    volume: 0.2
+    volume: 0.1
     pitch: 1
     loop: 1
     source: {fileID: 0}
