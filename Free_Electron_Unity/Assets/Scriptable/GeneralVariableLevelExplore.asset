@@ -15,7 +15,7 @@ MonoBehaviour:
   canLose: 1
   canPause: 1
   isTimeRunning: 0
-  willRushAtStart: 1
+  willRushAtStart: 0
   displayEnergy: 1
   displayHarvest: 1
   displayControls: 1

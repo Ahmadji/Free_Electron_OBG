@@ -76,3 +76,10 @@ MonoBehaviour:
     pitch: 0
     loop: 1
     source: {fileID: 0}
+  - name: End
+    clip: {fileID: 8300000, guid: c18e7253681edfa49ac95644964886f8, type: 3}
+    audioMixerGroup: {fileID: 623056615525494890, guid: 6f7b8c2ef61a4aa41930b50b5a5f1aff, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
