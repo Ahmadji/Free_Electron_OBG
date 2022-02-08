@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d5770c7e787b8419aea24f4e17d5c6, type: 3}
   m_Name: GeneralVariableLevelExplore
   m_EditorClassIdentifier: 
-  canLose: 1
+  canLose: 0
   canPause: 1
   isTimeRunning: 0
   willRushAtStart: 0
-  displayEnergy: 1
-  displayHarvest: 1
-  displayControls: 1
-  displayPauseControl: 1
+  displayEnergy: 0
+  displayHarvest: 0
+  displayControls: 0
+  displayPauseControl: 0
   canPlayerDoubleTapContinuum: 1
   canPlayerHoldContinuum: 1
   canPlayerDoubleTapLinked: 1
